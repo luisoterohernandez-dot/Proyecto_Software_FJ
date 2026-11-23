@@ -1,0 +1,86 @@
+2026-11-23 14:14:38,694 - INFO - Cliente registrado: Carlos Rodriguez
+2026-11-23 14:14:38,695 - INFO - Cliente registrado: Maria Gonzalez
+2026-11-23 14:14:38,696 - ERROR - OPERACION 3: Registrar cliente con documento duplicado: El cliente ya se encuentra registrado.
+2026-11-23 14:14:38,696 - ERROR - OPERACION 4: Registrar cliente con correo invalido: El correo electronico no es valido.
+2026-11-23 14:14:38,697 - INFO - Servicio registrado: Sala de reuniones
+2026-11-23 14:14:38,698 - INFO - Servicio registrado: Alquiler de computador
+2026-11-23 14:14:38,699 - INFO - Servicio registrado: Asesoria en programacion
+2026-11-23 14:14:38,702 - ERROR - OPERACION 8: Intentar crear servicio con precio negativo: El precio debe ser mayor que cero.
+2026-11-23 14:14:38,703 - INFO - Reserva registrada: R001
+2026-11-23 14:14:38,703 - INFO - Reserva R001 confirmada para el cliente Carlos Rodriguez.
+2026-11-23 14:14:38,705 - INFO - Reserva R001 procesada. Total: $160650.00
+2026-11-23 14:14:38,706 - ERROR - Error al procesar la reserva.
+Traceback (most recent call last):
+  File "c:\Users\User\Desktop\Proyecto_Software_FJ\main.py", line 287, in procesar
+    raise ErrorReserva(
+        "La reserva debe estar confirmada para procesarse."
+    )
+ErrorReserva: La reserva debe estar confirmada para procesarse.
+2026-11-23 14:14:38,709 - ERROR - OPERACION 12: Intentar procesar reserva pendiente: La reserva debe estar confirmada para procesarse.
+2026-11-23 14:14:38,709 - INFO - Reserva R002 confirmada para el cliente Maria Gonzalez.
+2026-11-23 14:14:38,711 - INFO - Reserva R002 procesada. Total: $60000.00
+2026-11-23 14:14:38,712 - ERROR - OPERACION 15: Intentar crear reserva con duracion incorrecta: La reserva de sala debe durar entre 1 y 12 horas.
+2026-11-23 14:14:38,712 - INFO - Reserva R001 cancelada.
+2026-11-23 14:14:38,713 - ERROR - Prueba de encadenamiento de excepciones.
+Traceback (most recent call last):
+  File "c:\Users\User\Desktop\Proyecto_Software_FJ\main.py", line 618, in main
+    numero = int("dato incorrecto")
+ValueError: invalid literal for int() with base 10: 'dato incorrecto'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\User\Desktop\Proyecto_Software_FJ\main.py", line 620, in main
+    raise ErrorValidacion(
+        "No fue posible convertir el dato a numero."
+    ) from error
+ErrorValidacion: No fue posible convertir el dato a numero.
+2026-11-23 14:14:38,716 - ERROR - Error matematico controlado.
+Traceback (most recent call last):
+  File "c:\Users\User\Desktop\Proyecto_Software_FJ\main.py", line 637, in main
+    resultado = 100 / 0
+                ~~~~^~~
+ZeroDivisionError: division by zero
+2026-11-23 14:15:10,323 - INFO - Cliente registrado: Carlos Rodriguez
+2026-11-23 14:15:10,324 - INFO - Cliente registrado: Maria Gonzalez
+2026-11-23 14:15:10,325 - ERROR - OPERACION 3: Registrar cliente con documento duplicado: El cliente ya se encuentra registrado.
+2026-11-23 14:15:10,327 - ERROR - OPERACION 4: Registrar cliente con correo invalido: El correo electronico no es valido.
+2026-11-23 14:15:10,327 - INFO - Servicio registrado: Sala de reuniones
+2026-11-23 14:15:10,329 - INFO - Servicio registrado: Alquiler de computador
+2026-11-23 14:15:10,332 - INFO - Servicio registrado: Asesoria en programacion
+2026-11-23 14:15:10,336 - ERROR - OPERACION 8: Intentar crear servicio con precio negativo: El precio debe ser mayor que cero.
+2026-11-23 14:15:10,337 - INFO - Reserva registrada: R001
+2026-11-23 14:15:10,342 - INFO - Reserva R001 confirmada para el cliente Carlos Rodriguez.
+2026-11-23 14:15:10,346 - INFO - Reserva R001 procesada. Total: $160650.00
+2026-11-23 14:15:10,349 - ERROR - Error al procesar la reserva.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Proyecto_Software_FJ\main.py", line 287, in procesar
+    raise ErrorReserva(
+        "La reserva debe estar confirmada para procesarse."
+    )
+ErrorReserva: La reserva debe estar confirmada para procesarse.
+2026-11-23 14:15:10,351 - ERROR - OPERACION 12: Intentar procesar reserva pendiente: La reserva debe estar confirmada para procesarse.
+2026-11-23 14:15:10,352 - INFO - Reserva R002 confirmada para el cliente Maria Gonzalez.
+2026-11-23 14:15:10,359 - INFO - Reserva R002 procesada. Total: $60000.00
+2026-11-23 14:15:10,362 - ERROR - OPERACION 15: Intentar crear reserva con duracion incorrecta: La reserva de sala debe durar entre 1 y 12 horas.
+2026-11-23 14:15:10,362 - INFO - Reserva R001 cancelada.
+2026-11-23 14:15:10,364 - ERROR - Prueba de encadenamiento de excepciones.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Proyecto_Software_FJ\main.py", line 618, in main
+    numero = int("dato incorrecto")
+ValueError: invalid literal for int() with base 10: 'dato incorrecto'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Proyecto_Software_FJ\main.py", line 620, in main
+    raise ErrorValidacion(
+        "No fue posible convertir el dato a numero."
+    ) from error
+ErrorValidacion: No fue posible convertir el dato a numero.
+2026-11-23 14:15:10,367 - ERROR - Error matematico controlado.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Proyecto_Software_FJ\main.py", line 637, in main
+    resultado = 100 / 0
+                ~~~~^~~
+ZeroDivisionError: division by zero
